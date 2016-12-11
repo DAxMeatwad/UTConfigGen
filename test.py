@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-import re
-
 gameini = r"C:\Users\terry\Desktop\LinuxServer\Rules.ini"
 
 
@@ -27,9 +25,6 @@ def getmapinfo():
     with open(gameini, "r") as f:
         for line in f:
             print(line.splitlines())
-
-    def setmapinfo(self):
-        pass
 
 
 def main():
